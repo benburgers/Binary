@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="Project Settings">
+		<TargetFrameworks>net7.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/benburgers/Graphics</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Ben Burgers; Binary</PackageTags>
+		<AssemblyVersion>0.1.9</AssemblyVersion>
+		<FileVersion>0.1</FileVersion>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<Copyright>© 2023 Ben Burgers</Copyright>
+		<Product>Ben Burgers Binary</Product>
+		<Company>Ben Burgers</Company>
+		<Authors>benburgers</Authors>
+		<Title>Ben Burgers Binary</Title>
+		<Description>Features for reading and writing binary data.</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/benburgers/Graphics</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Ben Burgers; Graphics; TIFF; TIF</PackageTags>
+		<AssemblyVersion>0.1</AssemblyVersion>
+		<FileVersion>0.1</FileVersion>
+		<PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<Copyright>© 2023 Ben Burgers</Copyright>
+		<Product>Ben Burgers Binary</Product>
+		<Company>Ben Burgers</Company>
+		<Authors>benburgers</Authors>
+		<Title>Ben Burgers Binary</Title>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<Version>0.1.9</Version>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup Label="Resources">
+		<Compile Update="**\Exceptions\ExceptionMessages.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>ExceptionMessages.resx</DependentUpon>
+		</Compile>
+		<EmbeddedResource Update="**\Exceptions\ExceptionMessages.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>ExceptionMessages.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup Label="Documentation">
+		<None Include="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

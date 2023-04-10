@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenBurgers.Binary", "BenBurgers.Binary\BenBurgers.Binary.csproj", "{B05DF46E-2E4D-4A57-92C4-C139C3652388}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub", "GitHub", "{CE1F6CAD-A20B-4D34-9030-E2BD6CF65D8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{702AFB62-CC16-439F-8EC3-7B2234AF408C}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{499E296B-E967-46B9-B762-C8284D9AA2EB}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\Release.yml = ..\.github\workflows\Release.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B05DF46E-2E4D-4A57-92C4-C139C3652388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05DF46E-2E4D-4A57-92C4-C139C3652388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05DF46E-2E4D-4A57-92C4-C139C3652388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05DF46E-2E4D-4A57-92C4-C139C3652388}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{499E296B-E967-46B9-B762-C8284D9AA2EB} = {CE1F6CAD-A20B-4D34-9030-E2BD6CF65D8B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2495A6ED-3DDD-4A7A-83AF-F7C09E06B0F6}
+	EndGlobalSection
+EndGlobal
