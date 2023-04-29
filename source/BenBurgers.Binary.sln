@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{
 		..\.github\workflows\Release.yml = ..\.github\workflows\Release.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C0E97053-ED6D-4A8F-B354-4D992CAB80D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenBurgers.Binary.Tests", "BenBurgers.Binary.Tests\BenBurgers.Binary.Tests.csproj", "{46328766-C56E-4544-BEE2-EEC8B5D71E0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +33,17 @@ Global
 		{B05DF46E-2E4D-4A57-92C4-C139C3652388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B05DF46E-2E4D-4A57-92C4-C139C3652388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B05DF46E-2E4D-4A57-92C4-C139C3652388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46328766-C56E-4544-BEE2-EEC8B5D71E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46328766-C56E-4544-BEE2-EEC8B5D71E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46328766-C56E-4544-BEE2-EEC8B5D71E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46328766-C56E-4544-BEE2-EEC8B5D71E0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{499E296B-E967-46B9-B762-C8284D9AA2EB} = {CE1F6CAD-A20B-4D34-9030-E2BD6CF65D8B}
+		{46328766-C56E-4544-BEE2-EEC8B5D71E0A} = {C0E97053-ED6D-4A8F-B354-4D992CAB80D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2495A6ED-3DDD-4A7A-83AF-F7C09E06B0F6}

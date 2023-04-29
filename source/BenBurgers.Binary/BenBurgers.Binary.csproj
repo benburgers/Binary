@@ -5,7 +5,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RepositoryUrl>https://github.com/benburgers/Graphics</RepositoryUrl>
+		<RepositoryUrl>https://github.com/benburgers/Binary</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>Ben Burgers; Binary</PackageTags>
 		<AssemblyVersion>0.1.9</AssemblyVersion>
@@ -18,9 +18,9 @@
 		<Title>Ben Burgers Binary</Title>
 		<Description>Features for reading and writing binary data.</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RepositoryUrl>https://github.com/benburgers/Graphics</RepositoryUrl>
+		<RepositoryUrl>https://github.com/benburgers/Binary</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<PackageTags>Ben Burgers; Graphics; TIFF; TIF</PackageTags>
+		<PackageTags>Ben Burgers; Binary; Little Endian; Big Endian; Byte Order</PackageTags>
 		<AssemblyVersion>0.1</AssemblyVersion>
 		<FileVersion>0.1</FileVersion>
 		<PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
